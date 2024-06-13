@@ -5,7 +5,7 @@ export interface IProjects
         title: string,
         with: string,
         height: string,
-        desciption:string, 
+        description:string, 
         links: 
         [
         {

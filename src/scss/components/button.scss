@@ -1,0 +1,42 @@
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    transition: 0.5s;
+    cursor: pointer;
+
+    &.btn-primary,
+    &.btn-secondary{
+        padding: 10px;
+        font-size: 14px;
+        border-radius: 7px;
+    }
+
+    &.btn-primary{
+        color: var(--white);
+        background: var(--primary);
+
+        &:hover{
+            background: var(--primary-010);
+        }
+    }
+
+    // &.btn-secondary{
+    //     color: var(--white);
+    //     background: var(--secondary);
+
+    //     &:hover{
+    //         background: var(--secondary-010);
+    //     }
+    // }
+
+    &.btn-secondary{
+        color: var(--white);
+        background: var(--linkedin);
+
+        &:hover{
+            background: var(--linkedin-010);
+        }
+    }
+}
